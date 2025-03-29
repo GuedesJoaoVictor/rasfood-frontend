@@ -11,7 +11,7 @@ export default function Home() {
           alt="bruschetta"
           className="w-full h-full object-cover object-top absolute -z-10"
         />
-        <NavBar />
+        <NavBar currentPage="Home" />
       </div>
     </ContainerFull>
   );

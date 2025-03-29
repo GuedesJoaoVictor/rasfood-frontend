@@ -1,17 +1,19 @@
 import { Container } from "../Container";
+import { NavBarItens } from "./NavBarItens";
 
-function NavBar() {
+interface NavBarProps {
+  currentPage: "Home" | "About" | "Menu" | "Categories";
+}
+
+function NavBar({ currentPage }: NavBarProps) {
   return (
     <Container>
       <div className="mx-auto py-4 flex justify-between flex-row">
-        <h1 className="text-3xl color-white-100">Rasfood</h1>
+        <h1 className="text-3xl color-white-400 font-instrument-serif">
+          Rasfood
+        </h1>
         <nav>
-          <ul className="flex gap-4 flex-row">
-            <li>Home</li>
-            <li>About</li>
-            <li>Something</li>
-            <li>Something</li>
-          </ul>
+          <NavBarItens currentPage={currentPage} />
         </nav>
       </div>
     </Container>
