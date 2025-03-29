@@ -1,5 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 @import "tailwindcss";
-
 :root {
   --my-blue-100: #84cae7;
   --my-blue-200: #86bbd8;
@@ -21,6 +21,7 @@
   --my-black-200: #363732;
   --my-black-300: #464655;
   --my-black-400: #170f11;
+  font-family: "Nunito", sans-serif;
 }
 
 .color-blue-100 {
@@ -143,6 +144,9 @@
 .bgr-black-400 {
   background-color: var(--my-black-400);
 }
-.text-blue-100 {
-  color: var(--my-blue-100);
+.font-instrument-serif {
+  font-family: "Instrument Serif", serif;
+}
+.font-nunito {
+  font-family: "Nunito", sans-serif;
 }
