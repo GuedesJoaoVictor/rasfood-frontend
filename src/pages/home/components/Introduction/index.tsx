@@ -1,8 +1,8 @@
 import { ContainerFull } from "../../../../components/ContainerFull";
 import { NavBar } from "../../../../components/NavBar";
 import { Title } from "../../../../components/Title";
-import { Button } from "../Button";
 import esfiha from "../../../../assets/esfiha_na_bancada.jpeg";
+import { Button } from "../Button";
 import AboutUs from "../AboutUs";
 
 function Introduction() {

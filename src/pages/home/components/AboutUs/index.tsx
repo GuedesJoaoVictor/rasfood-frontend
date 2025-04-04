@@ -7,7 +7,7 @@ function AboutUs() {
       <div className="flex flex-row">
         <div className="flex flex-col items-center justify-center text-center gap-y-10 w-1/2 h-full">
           <Title font="Nunito">About Us</Title>
-          <p className="w-1/2 text-justify">
+          <p className="w-1/2 text-justify font-instrument-serif">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eos,
             harum sequi consequuntur quae ipsum, distinctio incidunt ipsam
             repudiandae laudantium veniam. Autem non eum cumque consectetur
